@@ -89,6 +89,7 @@ namespace PrintTest.UWP
             rectangle.Fill = brush;
             brush.Stretch = (Windows.UI.Xaml.Media.Stretch)Windows.UI.Xaml.Media.Stretch.UniformToFill;
             brush.AlignmentY = AlignmentY.Top;
+            brush.AlignmentX = AlignmentX.Left;
             rectangle.Name = "MyWebViewRectangle";
 
             rectangle.Visibility = Windows.UI.Xaml.Visibility.Visible;
